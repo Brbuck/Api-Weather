@@ -1,5 +1,7 @@
 # Previsão do Tempo
 
+![Captura de tela 2022-01-13 193239](https://user-images.githubusercontent.com/62665590/149419605-43720c10-ecc8-49a7-8bed-41f8b795d621.png)
+
 ## Sobre o Projeto
 
 É uma aplicação Web para obter as informações do clima usando sua localização ou num método de busca.
