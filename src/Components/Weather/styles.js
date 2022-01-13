@@ -77,6 +77,10 @@ export const Title = styled.div`
     font-size: 2rem;
     font-weight: bold;
     background-color: #fff;
+
+    @media screen and (max-width: 480px){
+        font-size: 1.5rem;
+    }
 `;
 
 export const WeatherContainer = styled.div`
@@ -95,6 +99,11 @@ export const WeatherBox = styled.div`
 
         h2{
             color: var(--color-yellow);
+
+            @media screen and (max-width: 480px){
+                text-align: center;
+                font-size: 1.2rem;
+            }
         }
 
         span{
@@ -105,6 +114,10 @@ export const WeatherBox = styled.div`
                 color: #222;
                 font-size: 1.3rem;
                
+            }
+
+            @media screen and (max-width: 480px){
+                font-size: 1.5rem;
             }
         }
 `
