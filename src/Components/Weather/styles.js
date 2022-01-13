@@ -9,9 +9,17 @@ export const Container = styled.div`
     align-items: center;
     padding: 10px;
     
+    img{
+        width: 100vw;
+        height: 100vh;
+        filter: brightness(65%);
+        position: absolute;
+        z-index: -1;
+    }
+    
 `
 
-export const SearchBox = styled.div`
+export const SearchBox = styled.form`
     width: 100%;
     max-width: 500px;
     display: flex;
@@ -38,6 +46,7 @@ export const SearchBox = styled.div`
         width: 100px;
         height: 40px;
         font-size: 1rem;
+        cursor: pointer;
 
         background-color: #87CEFA;
 
